@@ -15,7 +15,7 @@ function botaoClicado()
     cpf.value = "";
     console.log("Objeto json criado.")
 
-    fetch("http://localhost:3000/clientes", {
+    fetch("https://localhost:3000/clientes", {
         method: "post",
         headers: {"Content-Type": "application/json"},
         body: jasonObj
