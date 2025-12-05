@@ -2,6 +2,7 @@ const xml2js = require('xml2js');
 const { encriptar, decriptar } = require('./criptografia');
 const model = require('./clienteModel');
 
+const contas = [];
 const CHAVE_CRIPTOGRAFIA = 5; 
 
 async function cadastrar(req, res)
